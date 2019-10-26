@@ -4,6 +4,7 @@ let loses = 0;
 let gLeft = 9;
 let soFar = [];
 let count = 0;
+let clearArray=[];
 alert("Welcome to The Psychic Game!");
 alert("Are you ready?");
 alert("What's your GUESS? Press any letter.");
@@ -35,7 +36,11 @@ document.onkeyup = function () {
         gLeft = 9;
         document.getElementById('gLeft').innerHTML = gLeft;
         compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
-        
+        //Clearing input
+        compGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
+        soFar = clearArray;
+        document.getElementById("soFar").innerHTML="";
+        count =0;
 
     }
 }
