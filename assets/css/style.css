@@ -1,17 +1,17 @@
 body {
 	margin: 0 auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-image: url(../images/psychic-img.jpeg);
+	background-image: url(../images/blue-sky-gradient.jpg);
 	background-size: 100%;
 }
 
 .container {
-	width: 50%;
-	height: 250px;
-	margin: 400px;
+	width: 60%;
+	height: 60%;
+	margin: 300px;
 	margin-top: 20px;
 	background-color: rgb(2, 44, 82);
-	border: 2px solid rgb(180, 3, 18);
+	border: 2px solid rgb(251, 250, 251);
 	color: white;
 }
 
@@ -23,9 +23,11 @@ h1 {
 }
 .content-div {
 	margin-left: 20px;
+	width: 50%;
+	height: 35%;
 }
 p {
 	font-size: 24px;
-	width: 300px;
-	line-height: 40px;
+	width: 400px;
+	line-height: 60px;
 }
